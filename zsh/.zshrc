@@ -77,6 +77,8 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+#Anti opensuse bullshitery fix
+unset LS_COLORS
 
 # User configuration
 

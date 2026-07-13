@@ -126,6 +126,4 @@ broken_symlink: {foreground: "#FF5F5F"}
 
 broken_path_overlay: {foreground: "#870000"}
 
-filenames:
 
-extensions:

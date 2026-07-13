@@ -1,3 +1,6 @@
+#Based on the GZNH Theme ohmyzsh theme found at https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gnzh.zsh-theme
+
+
 setopt prompt_subst
 
 () {

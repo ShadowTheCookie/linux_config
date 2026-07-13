@@ -107,6 +107,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias ls='eza --color=always --icons=auto'
+alias ll='eza -la --color=always --icons=auto --git --time-style=long-iso'
+alias la='eza -a --color=always --icons=auto'
+alias lt='eza --tree --color=always --icons=auto --git'
+
 #Custom functions
 #Runs stuff in the background without an attached terminal
 min() {
@@ -121,4 +126,7 @@ ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=168'
 ZSH_HIGHLIGHT_STYLES[command]='fg=135'                
 ZSH_HIGHLIGHT_STYLES[function]='fg=218'
 ZSH_HIGHLIGHT_STYLES[alias]='fg=177'
-ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=88,bold'  
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=88,bold'
+
+#File directory styles
+#export LS_COLORS='fi=38;5;177:di=38;5;168:ln=38;5;218:or=38;5;218:ex=38;5;203:*.tar=38;5;177:*.tgz=38;5;177:*.zip=38;5;177:*.gz=38;5;177:*.xz=38;5;177:*.7z=38;5;177:*.jpg=38;5;218:*.jpeg=38;5;218:*.png=38;5;218:*.gif=38;5;218:*.svg=38;5;218:*.mp3=38;5;177:*.flac=38;5;177:*.mp4=38;5;177:*.mkv=38;5;177'

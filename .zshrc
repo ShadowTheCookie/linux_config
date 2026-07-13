@@ -112,3 +112,13 @@ source $ZSH/oh-my-zsh.sh
 min() {
     nohup "$@" >/dev/null 2>&1 &
 }
+
+#Custom syntax highlighting
+
+typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=203,bold'    
+ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=168'      
+ZSH_HIGHLIGHT_STYLES[command]='fg=135'                
+ZSH_HIGHLIGHT_STYLES[function]='fg=218'
+ZSH_HIGHLIGHT_STYLES[alias]='fg=177'
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=88,bold'  

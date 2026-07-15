@@ -1,6 +1,31 @@
 #HELIX editor configs by ShadowTheCookie
 
 
-
 [editor]
-line-number = "relative"
+mouse = false
+default-yank-register = "+"
+middle-click-paste = false
+cursorline = true
+popup-border = 'all'
+
+[editor.statusline]
+left = ["file-name"]
+center = ["mode"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+
+[editor.cursor-shape]
+normal = 'underline'
+insert = 'bar'
+
+[editor.indent-guides]
+render = true
+
+[editor.inline-diagnostics]
+cursor-line = "info"
+other-lines = "error"      
+
+[editor.gutters]
+layout = ["line-numbers", "spacer", "diff"]

@@ -1,7 +1,16 @@
-#Custom theme combining Booberry and Mellow
-# https://github.com/helix-editor/helix/blob/master/runtime/themes/boo_berry.toml
-# https://github.com/helix-editor/helix/blob/master/runtime/themes/mellow.toml
-# https://github.com/ShadowTheCookie/linux_config/blob/main/helix/cookiestheme.toml
+# Boobery Mellow Neon Orchid
+#
+# Background:
+#   Based on "Boobery" by bootra
+#
+# Syntax:
+#   Inspired by "Mellow" by Rohit K Viswanath <kvrohit@gmail.com>
+#
+# Modified:
+#   Ultra high contrast pink/purple syntax
+#   Dark plum OLED-style background
+#   No green tones
+#   Unique Helix palette keys
 
 
 "attribute" = { fg = "neon_pink", modifiers = ["italic"] }
@@ -144,51 +153,52 @@ berry_fade = "#3F2958"
 berry_dim = "#2C1D42"
 berry_saturated = "#0C0612"
 
-soft_violet = "#B994EA"
 
-neon_pink = "#FFAFD8"
-neon_magenta = "#FA96E1"
+soft_violet = "#A98BD0"
 
-rose = "#FCAECF"
-rose_bright = "#FFE3F0"
+neon_pink = "#FF9CDA"
+neon_magenta = "#FF72CC"
 
-bright_lilac = "#E2D5F8"
-lavender = "#ECF0FA"
+rose = "#FFD0E8"
+rose_bright = "#FFE1F0"
+
+bright_lilac = "#E8DCFF"
+lavender = "#F0E8FF"
 white_lavender = "#FFFFFF"
 
-electric_violet = "#D5A3FF"
-orchid_bright = "#F5CEFF"
+electric_violet = "#D3A7FF"
+orchid_bright = "#EBC7FF"
 
 
 bg = "#171022"
-fg = "#ECF0FA"
+fg = "#F0E8FF"
 
 black = "#050309"
 bright_black = "#2C1D42"
 
-red = "#FFAFD8"
-bright_red = "#FFCBE5"
+red = "#FF9CDA"
+bright_red = "#FFB5E4"
 
-green = "#E2D5F8"
+green = "#E8DCFF"
 bright_green = "#FFFFFF"
 
-yellow = "#FCAECF"
-bright_yellow = "#FFE3F0"
+yellow = "#FFD0E8"
+bright_yellow = "#FFE6F2"
 
-blue = "#ECF0FA"
+blue = "#F0E8FF"
 bright_blue = "#FFFFFF"
 
-cyan = "#D5A3FF"
-bright_cyan = "#F5CEFF"
+cyan = "#D3A7FF"
+bright_cyan = "#EBC7FF"
 
-white = "#ECF0FA"
+white = "#F0E8FF"
 bright_white = "#FFFFFF"
 
 
 gray01 = "#0C0612"
 gray02 = "#2C1D42"
 gray03 = "#3F2958"
-gray04 = "#B994EA"
-gray05 = "#CDB2F0"
-gray06 = "#E1D2F6"
-gray07 = "#ECF0FA"
+gray04 = "#A98BD0"
+gray05 = "#BDA4DE"
+gray06 = "#D7C4F0"
+gray07 = "#F0E8FF"

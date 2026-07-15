@@ -1,5 +1,6 @@
 #HELIX editor configs by ShadowTheCookie
 
+theme = "cookiestheme"
 
 [editor]
 mouse = false

@@ -109,13 +109,10 @@
 "ui.selection.primary" = { bg = "berry_dim" }
 
 
+
 "ui.cursor" = { fg = "berry", bg = "neon_pink" }
 "ui.cursor.match" = { fg = "berry", bg = "electric_violet" }
-"ui.cursorline.primary" = { bg = "berry_dim" }
-
-
-"ui.highlight" = { bg = "berry_dim" }
-
+"ui.cursorline.primary" = { bg = "dim_berry" }
 
 "ui.menu" = { fg = "bright_lilac", bg = "berry_saturated" }
 "ui.menu.selected" = { fg = "white_lavender", bg = "berry_dim" }
